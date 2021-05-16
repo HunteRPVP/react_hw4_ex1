@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ChangeName from './components/changeName';
+import ChangeVisivility from './components/changeVisibility';
+import Counter from './components/counter';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ChangeName />
+    <hr />
+    <ChangeVisivility />
+    <hr />
+    <Counter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
